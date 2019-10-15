@@ -6,20 +6,20 @@ body {
 header{
     font-size: 30px;
     text-align: center;
+    margin-bottom: 2px;
 }
 
-section
-{
+#position1 {
     border: 3px solid black;
     width:300px;
     height:230px;
-
-}
-#position1 {
     float: left;
     margin-left: 25%;
 }
 #position2 {
+    border: 3px solid black;
+    width:300px;
+    height:230px;
     float: right;
     color:dodgerblue;
     padding: 1%;
@@ -35,22 +35,25 @@ img {
     margin-top: 30%;
     margin-bottom: 30%;
 }
+
 p {
     font-size: 20px;
     font-weight: bold;
 }
-.inline {
-    display: inline-block;
-    position:relative;
-    max-width: 40%;
-    height: 80%;
+#text1 {
+    position:absolute;
+    line-height: 7px;
+    width: 45%;
 }
 
 li {
     text-indent: -35px;
+
 }
-#test {
-   margin-left : 30%;
+#img {
+    float: right;
+    width: 45%;
+    position: absolute;
 }
 
 
